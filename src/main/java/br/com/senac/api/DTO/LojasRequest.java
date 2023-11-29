@@ -1,6 +1,7 @@
 package br.com.senac.api.DTO;
 
-public class LojasRequest {
+public class
+LojasRequest {
     private Long id;
 
     private String nome;

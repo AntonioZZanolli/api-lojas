@@ -5,11 +5,12 @@ import br.com.senac.api.DTO.LojasResponse;
 import br.com.senac.api.entidades.Lojas;
 
 public class LojasMapper {
-public static Lojas lojasRequestToLojas(LojasRequest loja) {
+    public static Lojas lojasRequestToLojas(LojasRequest loja) {
      Lojas out = new Lojas();
      out.setNome(loja.getNome());
      out.setCnpj(loja.getCnpj());
      out.setResponsavel(loja.getResponsavel());
+     out.setId(loja.getId());
 
      return out;
     }
